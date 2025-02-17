@@ -21,8 +21,7 @@ jobs:
         setup-command: ''
         command: python3 inches_to_feet.py
         input: '14'
-        expected-output: "Enter the number of inches: \n14 inches is 1 feet, and 2
-          inches"
+        expected-output: 'Enter the number of inches: 14 inches is 1 feet, and 2 inches'
         comparison-method: exact
         timeout: 10
     - name: Test Case 2 [100]
@@ -33,8 +32,8 @@ jobs:
         setup-command: ''
         command: python3 inches_to_feet.py
         input: '100'
-        expected-output: "Enter the number of inches: \n100 inches is 8 feet, and
-          4 inches"
+        expected-output: 'Enter the number of inches: 100 inches is 8 feet, and 4
+          inches'
         comparison-method: contains
         timeout: 10
     - name: Autograding Reporter
